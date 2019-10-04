@@ -1,5 +1,14 @@
+#logo {
+    width: 100%;
+}
 #logo img {
     border-radius: 50%;
+}
+h1 {
+    font-size: 25px;
+    font-weight: normal;
+    font-family: fantasy;
+
 }
 
 footer {
@@ -10,4 +19,11 @@ footer {
     background-color: #808080;
     color: white;
     text-align: center;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+body {
+    background-color: #CAFAFE;
 }
