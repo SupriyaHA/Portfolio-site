@@ -1,17 +1,25 @@
-#logo {
+* {
+    box-sizing: border-box;
+  }
+  .container {
+    background-color: #cafafe;
+    display: flex;
+    flex-wrap: wrap;
     width: 100%;
-}
-#logo img {
+  }
+  #logo {
+    width: 100%;
+  }
+  #logo img {
     border-radius: 50%;
-}
-h1 {
+  }
+  h1 {
     font-size: 25px;
     font-weight: normal;
     font-family: fantasy;
-
-}
-
-footer {
+  }
+  
+  footer {
     position: fixed;
     left: 0;
     bottom: 0;
@@ -19,11 +27,22 @@ footer {
     background-color: #808080;
     color: white;
     text-align: center;
-}
-.content {
+  }
+  .content {
     display: flex;
     justify-content: space-between;
-}
-body {
-    background-color: #CAFAFE;
-}
+  }
+  
+  @media screen and (max-width: 500px) {
+    .content {
+      flex-flow: column;
+      align-items: center;
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .content {
+      flex-wrap: wrap;
+    }
+  }
+  
