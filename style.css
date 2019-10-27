@@ -12,27 +12,18 @@
   }
   #logo img {
     border-radius: 50%;
+    text-align: center;
+    
   }
   h1 {
     font-size: 25px;
     font-weight: normal;
     font-family: fantasy;
   }
-  
-  footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #808080;
-    color: white;
-    text-align: center;
-  }
   .content {
     display: flex;
     justify-content: space-between;
   }
-  
   @media screen and (max-width: 500px) {
     .content {
       flex-flow: column;
